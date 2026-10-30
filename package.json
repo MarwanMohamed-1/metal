@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "start": "nx serve",
+    "build": "nx build",
+    "watch": "nx build --watch --configuration development"
   },
   "dependencies": {
     "@angular/animations": "^20.2.0",
@@ -20,9 +20,15 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
+    "@angular-devkit/core": "^20.2.0",
+    "@angular-devkit/schematics": "^20.2.0",
     "@angular/build": "^20.2.0",
     "@angular/cli": "^20.2.0",
     "@angular/compiler-cli": "^20.2.0",
+    "@nx/angular": "24.0.2",
+    "@nx/workspace": "24.0.2",
+    "@schematics/angular": "^20.2.0",
+    "nx": "24.0.2",
     "typescript": "~5.9.2"
   }
 }

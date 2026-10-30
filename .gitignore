@@ -1,1 +1,16 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Angular
+.angular/
+dist/
+
+# Nx
+.nx/
+
+# Build outputs
+coverage/
+out-tsc/
+
+# IDE
+.idea/

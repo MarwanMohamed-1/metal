@@ -4,6 +4,7 @@ import { selectLanguage } from './store/forge.selectors';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
+import { FeaturedComponent } from './components/featured/featured.component';
 import { ServicesComponent } from './components/services/services.component';
 import { WhyComponent } from './components/why/why.component';
 import { QuoteComponent } from './components/quote/quote.component';
@@ -15,7 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    NavbarComponent, HeroComponent, AboutComponent, ServicesComponent,
+    NavbarComponent, HeroComponent, AboutComponent, FeaturedComponent, ServicesComponent,
     WhyComponent, QuoteComponent, FaqComponent, ContactComponent, FooterComponent
   ],
   template: `
@@ -24,6 +25,7 @@ import { FooterComponent } from './components/footer/footer.component';
       <main>
         <app-hero />
         <app-about />
+        <app-featured />
         <app-services />
         <app-why />
         <app-quote />

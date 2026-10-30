@@ -28,6 +28,7 @@ import { selectLanguage, selectLastQuote, selectSelectedServiceId } from '../../
             <p class="form-intro">{{ (language$ | async) === 'ar' ? 'الحقول المميزة مطلوبة.' : 'Fields marked required are mandatory.' }}</p>
             <form [formGroup]="form" (ngSubmit)="submit()">
               <label>{{ (language$ | async) === 'ar' ? 'الاسم' : 'Name' }}<input formControlName="name" [placeholder]="(language$ | async) === 'ar' ? 'اسمك بالكامل' : 'Your full name'"></label>
+              <label>{{ (language$ | async) === 'ar' ? 'اسم الشركة' : 'Company name' }}<input formControlName="companyName" [placeholder]="(language$ | async) === 'ar' ? 'اسم شركتك' : 'Your company name'"></label>
               <label>{{ (language$ | async) === 'ar' ? 'رقم الهاتف' : 'Phone number' }}<input formControlName="phone" type="tel" [placeholder]="(language$ | async) === 'ar' ? '+20...' : '+20...'"></label>
               <label>{{ (language$ | async) === 'ar' ? 'الخدمة المطلوبة' : 'Service required' }}
                 <select formControlName="serviceId">

@@ -24,5 +24,7 @@ npm run build
 - `src/assets/hegazy-metal-logo.png` — extracted company logo with transparent background.
 - `src/assets/hegazy-metal-icon.png` — isolated emblem.
 - `src/assets/favicon.png` — browser tab icon.
+- `src/assets/clients-partners/` — partner logos shown in the featured section.
+- `src/assets/projects-featured/` — project images shown in the featured section.
 
 The navbar logo has a subtle 3D flip animation, with reduced-motion preferences respected by the global stylesheet.
