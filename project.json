@@ -56,7 +56,7 @@
           "sourceMap": true
         }
       },
-      "defaultConfiguration": "development",
+      "defaultConfiguration": "production",
       "outputs": [
         "{options.outputPath}"
       ]
@@ -71,7 +71,7 @@
           "buildTarget": "forge:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "production"
     }
   }
 }

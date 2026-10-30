@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
-    "watch": "nx build --watch --configuration development"
-  },
+  "start": "ng serve",
+  "build": "ng build",
+  "watch": "ng build --watch --configuration development"
+},
   "dependencies": {
     "@angular/animations": "^20.2.0",
     "@angular/common": "^20.2.0",
